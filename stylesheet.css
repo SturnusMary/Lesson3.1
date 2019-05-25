@@ -28,7 +28,7 @@ img{
     color: white;
     padding: 15px 0;
 }
-.mark {
+.mark{
     color: red;
     border: 1px solid red;
     border-radius: 50%;
@@ -36,12 +36,13 @@ img{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    margin-bottom: 10px;
 }
-.dayw {
+.dayw{
     color: red;
     font-size: 18px;
 }
-h1 {
+h1{
     color: black;
     position: absolute;
     top: 5px;
@@ -49,9 +50,11 @@ h1 {
     font-size: 35px;
     text-shadow: 1px 1px 1px red;
 }
-.light {
+.light{
     color: gray;
 }
-br {
+.clearfix::after{
+    content: " ";
+    display: table;
     clear: both;
 }
